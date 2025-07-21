@@ -38,7 +38,4 @@ const addUser = async () => {
     await user1.save();
 
 }
-
-addUser()
-.then(() => console.log("User added successfully"))
-.catch(err => console.log("Error adding user:", err));
+addUser();
